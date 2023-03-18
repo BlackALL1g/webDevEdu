@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    background-color:antiquewhite;
+    font-size: 20px;
+}
+
+.title{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    /* position: fixed; */
+    font-family: titleFont3;
+    font-size: 130px;
+    color: rgb(39, 247, 250);
+    text-shadow: 3px 3px purple;
+}
+
+@font-face {
+    font-family: titleFont3;
+    src: url(fonts3/Wigglye.ttf);
+}
+
+.container{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+@font-face {
+    font-family: titleFont4;
+    src: url(fonts4/FunnyKid.ttf);
+}
+
+.subColorContainers{
+    font-family: titleFont4;
+    font-size: 40px; 
+    background-color: orange;
+    width: 280px;
+    height: 100px;
+    border: 2px solid #000;
+    margin: 3px;
+    border-radius:10px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+@font-face {
+    /* font-family: titleFont; */
+    /* src:    url(fonts/KGHAPPY.ttf); */
+    /* src:    url(fonts/KGHAPPYShadows.ttf); */
+    /* src:    url(fonts/KGHAPPYSolid.ttf); */
+}
